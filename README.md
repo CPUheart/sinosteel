@@ -108,4 +108,4 @@ https://github.com/davezuko/react-redux-starter-kit
 **在此表示感谢！**        
 
 # 项目许可
-MIT许可证，就是随便用的意思             
+MIT许可证，就是可以随便用的意思。             

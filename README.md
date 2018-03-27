@@ -1,19 +1,7 @@
 # 项目介绍
-首先，飞龙骑脸怎么输      
 
-其次，这是一个以spring boot和react/node.js为基础，UI采用<a href="https://ant.design/index-cn">ant design</a>的个人开发的全栈传统web应用框架
+这是一个以spring boot和react/node.js为基础，UI采用<a href="https://ant.design/index-cn">ant design</a>的全栈传统web应用框架。原作者为[DimitriZhao](https://github.com/DimitriZhao)。
 
-然后，我不由得念起了诗：龙苟毒爆一波流。。。。。。    
-
-最后，还是再说一下，这是**个人独立单刷**的**全栈**框架和项目，所以难免有一些疏忽或设计问题，欢迎指教和意见，如若喷请轻喷，请照顾一下准备换工作正在求职的风雨飘摇的90后空巢老人的感受，蟹蟹              
-                  
-# 项目演示
-地址：http://47.93.233.254:9016
-
-用户名：admin      
-密码：admin     
-
-该框架目前试用于实际项目
              
 # 项目截图       
 <img src="https://github.com/DimitriZhao/screenshots/blob/master/sinosteel/framework0.png" />      
@@ -24,14 +12,16 @@
 <img src="https://github.com/DimitriZhao/screenshots/blob/master/sinosteel/framework5.png" />   
                           
 # 项目特点
-## 服务端：
-服务端/客户端完全分离       
-无状态应用       
-面向服务的结构       
+
+本项目中服务端/客户端完全分离。其中：
+
+## 服务端（后端）
+无状态应用
+面向服务的结构
 注解风格       
 采用JSON格式传输信息         
 提供面向对象的实体开发基类        
-多ORM用于不同场景     
+多ORM用于不同场景
 具有功能权限和数据权限机制        
 自定义的数据权限控制注解        
 封装了消息，数据分页及缓存等机制          
@@ -54,7 +44,12 @@ ORM：spring data jpa 和 mybatis
 项目构建：apache maven      
 
 ## 客户端
-react + ant design + react-redux-router + redux-thunk + webpack + nginx
+react
+redux-thunk 
+react-redux-router
+ant design
+webpack
+nginx
 
 # 使用说明
 该仓库中包含两个文件夹：“server” 和 “client”。“server” 文件夹为服务端项目，“client” 文件夹为客户端项目。两者都可以独立运行
@@ -104,7 +99,7 @@ $ npm run build
 生成的文件位于 dist 文件夹中, 可在nginx中部署                  
 
 # 开发指南
-如何使用框架开发，请参考<a href="https://github.com/DimitriZhao/sinosteel/blob/master/README-Dev_Guide.md">开发指南</a>
+如何使用框架开发，请参考<a href="https://github.com/caochun/sinosteel/blob/master/README-Dev_Guide.md">开发指南</a>
 
 # 项目引用                 
 https://github.com/OwlAford/easy-react-desktop                          

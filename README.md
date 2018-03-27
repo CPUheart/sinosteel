@@ -37,19 +37,19 @@
 
 # 技术栈
 ## 服务端   
-基础：spring boot    
-ORM：spring data jpa 和 mybatis        
-缓存：redis      
-权限：apache shiro（无状态应用）    
-项目构建：apache maven      
+- 基础：spring boot    
+- ORM：spring data jpa 和 mybatis        
+- 缓存：redis      
+- 权限：apache shiro（无状态应用）    
+- 项目构建：apache maven      
 
 ## 客户端
-react
-redux-thunk 
-react-redux-router
-ant design
-webpack
-nginx
+- react
+- redux-thunk 
+- react-redux-router
+- ant design
+- webpack
+- nginx
 
 # 使用说明
 该仓库中包含两个文件夹：“server” 和 “client”。“server” 文件夹为服务端项目，“client” 文件夹为客户端项目。两者都可以独立运行
